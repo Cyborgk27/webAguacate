@@ -1,0 +1,161 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin: 5vh 0vh;
+}
+nav a {
+  text-decoration: none;
+  padding: 1vh;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  width: 100%;
+  background-color: rgb(145, 196, 108);
+  padding: 2vh;
+  font-weight: bolder;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+  margin: 0;
+  padding: 3vh;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+}
+nav a {
+  text-align: center;
+}
+article .container-image {
+  background-image: url("/images/tostada-aguacate.jpg.webp");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+article h2 {
+  margin: 5vh;
+}
+article .container {
+  margin: 5vh;
+  text-align: justify;
+}
+aside {
+  background-color: rgb(156, 202, 123);
+
+  padding: 5vh 0vh;
+}
+aside .container-cards {
+  margin: 3vh;
+}
+
+aside .card {
+  text-align: center;
+  border-radius: 5px;
+}
+
+aside h2 {
+  text-align: center;
+}
+.container-cards .card {
+  height: 50vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10vh;
+  margin: 5vh 0vh;
+}
+
+.card:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/images/descarga.jpg");
+}
+
+.card:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/images/caracteristicas_nutricionales_aguacate.jpg");
+}
+
+.card:last-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/images/tostada-aguacate.jpg.webp ");
+}
+
+aside h3 {
+  color: white;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(83, 83, 83);
+  align-content: center;
+  justify-content: center;
+}
+/* footer .container {
+} */
+
+/* .card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+  transform: translateY(-3%);
+  background-color: aqua;
+} */
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    overflow: initial;
+  }
+
+  header nav{
+    flex-direction: row;
+  }
+
+  main {
+    display: flex;
+    padding-top: 12vh;
+  }
+}
