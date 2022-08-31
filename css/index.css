@@ -59,7 +59,7 @@ nav a {
   text-align: center;
 }
 article .container-image {
-  background-image: url("/images/tostada-aguacate.jpg.webp");
+  background-image: url("/images/tostada-aguacate.JPG.WEBP");
   height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ aside h2 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/descarga.jpg");
+    url("/images/descarga.JPG");
 }
 
 .card:nth-child(2) {
@@ -113,7 +113,7 @@ aside h2 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/caracteristicas_nutricionales_aguacate.jpg");
+    url("/images/caracteristicas_nutricionales_aguacate.JPG");
 }
 
 .card:last-child {
@@ -122,7 +122,7 @@ aside h2 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/images/tostada-aguacate.jpg.webp ");
+    url("/images/tostada-aguacate.JPG.webp ");
 }
 
 aside h3 {
